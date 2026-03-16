@@ -9,7 +9,11 @@ source .venv/bin/activate  # oder Windows:  .venv\Scripts\activate
 python -m pip install -r requirements.txt
 ```
 
-.env-Datei mit Huggingface-Token anlegen (HG_TOKEN)
+Im backend-Ordner eine .env-Datei mit dem Huggingface-Token anlegen (HG_TOKEN):
+```
+HG_TOKEN="<hier_den_token_einfuegen>"
+```
+Den Token bei Huggingface unter "Settings" und "Access Tokens" erstellen und bei "Permissions" Write ausfwählen. 
 
 In den Ordner backend das Korpus mit den Fanfiction-Texten einfügen.
 
