@@ -13,7 +13,7 @@ Im backend-Ordner eine .env-Datei mit dem Huggingface-Token anlegen (HG_TOKEN):
 ```
 HG_TOKEN="<hier_den_token_einfuegen>"
 ```
-Den Token bei Huggingface unter "Settings" und "Access Tokens" erstellen und bei "Permissions" Write ausfwählen. 
+Den Token bei Huggingface unter "Settings" und "Access Tokens" erstellen und bei "Permissions" Write auswählen. 
 
 In den Ordner backend das Korpus mit den Fanfiction-Texten einfügen.
 
