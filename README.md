@@ -1,4 +1,4 @@
-# Masterarbeit: Benutzerzentrierte Entwicklung einer digitalen Buchhandlung -- Prototyp
+# Masterarbeit: Benutzerzentrierte Entwicklung einer digitalen Buchhandlung – Prototyp
 
 ## Prototyp starten
 
