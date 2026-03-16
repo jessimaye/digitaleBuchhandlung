@@ -6,9 +6,11 @@ Um die Virtuelle Environment anzulegen und zu starten:
 
 python -m venv .venv
 
-source .venv/bin/activate        # oder Windows:.venv\Scripts\activate
+source .venv/bin/activate        # oder Windows:  .venv\Scripts\activate
 
 python -m pip install -r requirements.txt
+
+
 
 .env-Datei mit Huggingface-Token anlegen (HG_TOKEN)
 
