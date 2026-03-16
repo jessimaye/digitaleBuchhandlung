@@ -1,4 +1,4 @@
-# Masterarbeit: Benutzerzentrierte Entwicklung einer digitalen Buchhandlung
+# Masterarbeit: Benutzerzentrierte Entwicklung einer digitalen Buchhandlung -- Prototyp
 
 ## Prototyp starten
 
@@ -21,7 +21,6 @@ Prototyp immer über app.py starten und über http://127.0.0.1:5000/home die Sta
 
 ## Aufbau 
 
-Der Ordner Prototyp enthält alle Code-Dateien für den Prototyp, hinzugefügt werden müssen nur noch das Korpus
-sowie die .env-Datei mit dem Huggingface-Token. Im Ordner backend befinden sich die Flask-App sowie die Dateien für die RAG-Pipeline samt Preprocessing. Im Ordner frontend befinden sich die HTML-Seiten, die CSS-Datei für das Sytling, der JavaScript-Code sowie die für den Prototyp verwendeten Bilder. 
+Dieses Repository enthält alle Code-Dateien für den Prototyp, hinzugefügt werden müssen nur noch das Korpus
+sowie die .env-Datei mit dem Huggingface-Token. Im Ordner backend befinden sich die Flask-App sowie die Dateien für die RAG-Pipeline samt Preprocessing. Im Ordner frontend liegen die HTML-Seiten, die CSS-Datei für das Sytling, der JavaScript-Code sowie die für den Prototyp verwendeten Bilder. 
 
-Der Ordner Umfrage_Auswertung enthält das JupyterNotebook, das zur Analyse der Umfrage-Ergebnisse verwendet wurde sowie die dazu erstellten Plots. 
