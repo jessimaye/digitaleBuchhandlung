@@ -1,0 +1,156 @@
+header {
+    background-color: #cfb997;
+    background-image: url("images/books_header.png");
+    background-size: cover;
+    background-position: center;
+    padding: 180px;
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+}
+
+/* Navigationsleiste */
+
+.navbar {
+    display:flex;
+    background-color: #c19770;
+}
+
+.navbar a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: white;
+    background-color: #a67a5b;
+}
+
+/* Allgemeine Layout-Elemente */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 70%;
+    background-color: #faf0dc;
+    padding: 20px;
+}
+
+input [type="text"]{
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+a:visited {
+    color:black
+}
+
+.column {
+    width: 30%;
+    padding: 10px;
+    height: 200px;
+    text-align: center;
+}
+
+
+/* Startseite */
+
+.image-map {
+    position: relative;
+    width: 100vw;
+    height: 100dvh;
+    background: url("images/Startseite.jpg") center/cover no-repeat fixed;
+}
+
+.hotspot{
+    position:absolute;
+    text-decoration: none;
+}
+
+
+
+.center {
+    width: 40%;
+    height: 80%;
+    top: 10%;
+    left: 30%;
+}
+
+.bottom-left {
+    width: 13%;
+    height: 16%;
+    bottom: 36%;
+    left: 2.5%;
+}
+
+.bottom-right {
+    width: 25%;
+    height: 50%;
+    bottom: 15%;
+    right: 5%;
+}
+
+
+
+/* Anzeige der Bücher auf der Detailseite*/
+
+/* Wechsel von Coverbild auf Klappentext/Rueckseite, wenn mit Maus über Bild hovern */
+
+.cover-wrapper {
+    height: 450px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.cover-wrapper img.hover {
+    position:absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.cover-wrapper:hover img.hover{
+    opacity:1;
+}
+
+/* Chatbot-Seite */
+
+.user {
+    text-align: right;
+    color: #5B3A29; 
+    font-weight: 500;
+}
+
+.assistant {
+    text-align: left;
+    color:black;
+    font-weight: 500;
+}
+
+.message {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.user .message {
+    background-color: #cfb997;
+}
+
+.assistant .message {
+    background-color:#a67a5b;
+}

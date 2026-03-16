@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+        <div class = "main">
+            <div style="display:flex; align-items:flex-start; gap:20px;">
+                <img src="images/chatbot.png" height="300">  
+            <div>
+                <p></p>
+                <h2 > Hallo, ich bin ein Chatbot, der Dir gerne hilft, Dich in unserer Buchhandlung zurechtzufinden. Ein paar Vorschläge, was Du mich fragen könntest: </h2>
+                <ul>
+                <li>Ich kann dir Geschichten empfehlen, zum Beispiel basierend darauf, was Du zuletzt gelesen hast und Dir gefallen hat.</li>
+                <p></p>
+                <li>Du kannst mir auch gerne Genres, Themen oder Autor/innen nennen, die dich interessieren.</li>
+                <p></p>
+                <li>Falls Du mehr zu einer bestimmten Geschichte wissen möchtest, sag mir gerne ihren Titel und frag mich etwas dazu.</li>
+                </ul>
+            </div>
+            </div>
+            <p></p>
+            <div id="chat"></div>
+            <input type="text" id="chat_input" placeholder="Stelle eine Frage..." style="width: 70%;"/>
+            <button onclick="send()">Senden</button>
+    </div>
+</div>
+ <script language="javascript" type="text/javascript" src = "code.js"></script>
+</body>
+</html>

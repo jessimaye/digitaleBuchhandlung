@@ -1,0 +1,4 @@
+haystack-ai
+jq
+"sentence-transformers>=5.0.0"
+Flask

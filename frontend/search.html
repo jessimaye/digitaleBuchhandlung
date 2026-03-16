@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <div class="navbar">
+        <a href="index.html">Eingang</a>
+        <a href="recomm.html">Empfehlungen</a>
+        <a href="">Mein Regal</a>
+    </div>
+
+    <div class="container">
+        <div class="main">
+            <h2>Suche nach einem Buch</h2>
+            <p></p>
+            <input type="text" id="search-input" placeholder="Gebe einen Suchbegriff ein">
+            <p></p>
+            <h2>Nach welcher Kategorie möchtest Du filtern?</h2>
+            <div class="categories">
+                <label> <input type="checkbox" class="search-category" value="titel"> Titel </label>
+                <label> <input type="checkbox" class="search-category" value="autor"> Autor </label>
+                <label> <input type="checkbox" class="search-category" value="reihe"> Reihe </label>
+            </div>
+            <p></p>
+
+            <button onclick ="filterBooks()"> Suchen </button>
+            <h2>Ergebnisse</h2>
+            <div id="results">
+                
+            </div>
+        </div>
+
+    </div>
+
+<script language="javascript" type="text/javascript" src = "code.js"></script>
+</body>
+</html>
